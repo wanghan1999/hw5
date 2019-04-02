@@ -1,0 +1,23 @@
+butterworth_lp('D:\image\work5\test1.pgm')
+power_spectral_ratio=0.993440
+
+gaussian_lp('D:\image\work5\test1.pgm')
+power_spectral_ratio=0.989419
+
+butterworth_lp('D:\image\work5\test2.tif')
+power_spectral_ratio=0.989951
+
+gaussian_lp('D:\image\work5\test2.tif')
+power_spectral_ratio=0.988167
+
+butterworth_hp('D:\image\work5\test3_corrupt.pgm')
+power_spectral_ratio=0.001319
+
+ gaussian_hp('D:\image\work5\test3_corrupt.pgm')
+power_spectral_ratio=0.001210
+
+butterworth_hp('D:\image\work5\test4 copy.bmp')
+power_spectral_ratio=0.005105
+
+gaussian_hp('D:\image\work5\test4 copy.bmp')
+power_spectral_ratio=0.004128
